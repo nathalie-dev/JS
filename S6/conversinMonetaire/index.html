@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion monetaire</title>
+    <script src="fonctions.js"></script>
+    <script src="execution.js" defer></script>
+</head>
+
+<body>
+    <div id="money">
+        <button class="btn_chiffre" value="0">0</button>
+        <button class="btn_chiffre" value="1">1</button>
+        <button class="btn_chiffre" value="2">2</button>
+        <button class="btn_chiffre" value="3">3</button>
+        <button class="btn_chiffre" value="4">4</button>
+        <button class="btn_chiffre" value="5">5</button>
+        <button class="btn_chiffre" value="6">6</button>
+        <button class="btn_chiffre" value="7">7</button>
+        <button class="btn_chiffre" value="8">8</button>
+        <button class="btn_chiffre" value="9">9</button>
+        <button class="btn_operateur" value=",">,</button>
+
+        <input type="radio" name="moneyDepart" id="Euro" value="euro" checked> Euros
+        <input type="radio" name="moneyDepart" id="Dollars" value="dollars"> Dollars
+        <input type="radio" name="moneyDepart" id="Couronne" value="couronne"> Couronne
+
+        <input type="radio" name="moneyArrivee" id="Euro" value="euro"> Euros
+        <input type="radio" name="moneyArrivee" id="Dollars" value="dollars" checked> Dollars
+        <input type="radio" name="moneyArrivee" id="Couronne" value="couronne"> Couronne
+        <input type="text" name="saisie" id="valeurSaisie">
+
+        <button id="conversion" value=""> convertir &rarr;</button>
+        
+        <label for="valeurConvertie">valeur convertie</label>
+        <input type="text" name="valeurConvertie" id="valeurConvertie" placeholder="valeur convertie">
+
+    </div>
+
+</body>
+
+</html>
