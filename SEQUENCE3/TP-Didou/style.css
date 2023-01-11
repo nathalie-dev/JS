@@ -1,0 +1,12 @@
+.imagesPetites{
+    height: 80px;
+}
+
+.images{
+    display: block;
+}
+
+button{
+    border-radius: 5px;
+    background-color:darkgrey
+}
