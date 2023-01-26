@@ -1,9 +1,6 @@
 class Cercle {
     rayon;
-    surface;
-    perimetre;
    
-
 
 constructor(pRayon) {
     console.log("constructor");
@@ -21,6 +18,6 @@ calculerSurface() {
 
 
 calculerPerimetre() {
-    return Math.PI * radius; // calcul du perimetre et la retourne
+    return (Math.PI*2) * this.rayon; // calcul du perimetre et la retourne
 }
 }
